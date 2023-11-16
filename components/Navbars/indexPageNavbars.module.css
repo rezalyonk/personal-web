@@ -1,0 +1,21 @@
+.containerDisplay {
+    /* background-color: aqua; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.bagianNavbars {
+    /* background-color: greenyellow; */
+}
+
+.bagianOl {
+    /* background-color: blue; */
+    /* color: white; */
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.bagianOl li {
+    /* background-color: aqua; */
+    margin-left: 8px;
+    margin-right: 14px;
+}
