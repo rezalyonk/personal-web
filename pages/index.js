@@ -4,6 +4,7 @@ import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import Navbars from '@/components/Navbars/indexPageNavbars'
 import Hero from '@/components/Hero/indexPageHero'
+import Footers from '@/components/Footers/indexPageFooters'
 
 // const inter = Inter({ subsets: ['latin'] })
 
@@ -14,6 +15,7 @@ export default function Home() {
         {/* <h1>Index Home Loh</h1> */}
         <Navbars />
         <Hero />
+        <Footers />
       </div>
     </>
   )
