@@ -26,7 +26,7 @@ export default function indexPageFooters() {
                         <h5 className="fs-6"> Kontak</h5>
                     </div>
                     <div className={`${styles.bagianCols4} col`}>
-                        <h5 className="fs-6 d-flex justify-content-center">Connect with us</h5>
+                        <h5 className="fs-6 d-flex justify-content-center">Connect with Me</h5>
                         <ol>
                             <li className={`d-inline`}><i class="bi bi-facebook"></i></li>
                             <li className={`d-inline`}><i class="bi bi-instagram"></i></li>
