@@ -1,0 +1,76 @@
+.containerDisplay {
+    background-color: #DDE6ED;
+    margin-top: 0%;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    font-family: 'Poppins', sans-serif;
+
+    -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.bagianCols3 {
+    /* background-color: skyblue; */
+}
+
+.bagianCols3 h5 {
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.bagianCols4 {
+    /* background-color: greenyellow; */
+}
+
+.bagianCols4 ol {
+    padding-top: 10px;
+}
+
+.bagianCols4 li {
+    /* background-color: skyblue; */
+    margin-left: 20pt;
+    margin-right: 10pt;
+}
+
+.bagianCols5 {
+    /* background-color: skyblue; */
+}
+
+.bagianCols5 h5 {
+    margin-top: 14pt;
+}
+
+/**
+ * ----------------------------------------
+ * animation tracking-in-expand
+ * ----------------------------------------
+ */
+@-webkit-keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
